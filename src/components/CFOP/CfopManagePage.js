@@ -58,7 +58,7 @@ const CfopManagePage = (props) => {
 
   return (
     <div className="container">
-      <h2 className="font-weight-lighter">Editar CFOP</h2>
+      <h2 className="font-weight-lighter">CFOP - Código fiscal de operação</h2>
       <div className="mb-5" />
       <CfopForm
         errors={errors}

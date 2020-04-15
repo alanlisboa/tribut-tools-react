@@ -58,7 +58,7 @@ const NcmManagePage = (props) => {
 
   return (
     <div className="container">
-      <h2 className="font-weight-lighter">Editar CFOP</h2>
+      <h2 className="font-weight-lighter">NCM - Nomenclaturas do Mercosul</h2>
       <div className="mb-5" />
       <NcmForm
         errors={errors}

@@ -29,3 +29,9 @@ Crie os dados para utlização das APIs:
 Execute o aplicativo:
 
 `npm start`
+
+### Executando o aplicativo
+
+O aplicativo será executado no seguinte endereço:
+
+`http://localhost:3000`

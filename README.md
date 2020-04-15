@@ -16,16 +16,16 @@ Ferramenta para consulta de códigos tributários e cálculos. Atualmente só es
 
 Baixe o repositório:
 
-> git clone https://github.com/alanlisboa/tribut-tools-react.git
+`git clone https://github.com/alanlisboa/tribut-tools-react.git`
 
 Na pasta do projeto, instale as dependências:
 
-> npm install
+`npm install`
 
 Crie os dados para utlização das APIs:
 
-> npm run data
+`npm run data`
 
 Execute o aplicativo:
 
-> npm start
+`npm start`

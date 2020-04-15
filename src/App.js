@@ -5,8 +5,12 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Header from "./components/common/Header";
 import HomePage from "./components/Home/HomePage";
+
 import NcmPage from "./components/NCM/NcmPage";
+import NcmManagePage from "./components/NCM/NcmManagePage";
+
 import CfopPage from "./components/CFOP/CfopPage";
+import CfopManagePage from "./components/CFOP/CfopManagePage";
 
 function App() {
   return (
@@ -16,8 +20,13 @@ function App() {
         <ToastContainer autoClose={3000} hideProgressBar />
         <Switch>
           <Route path="/" exact component={HomePage} />
-          <Route path="/ncm" component={NcmPage} />
-          <Route path="/cfop" component={CfopPage} />
+          <Route path="/ncms" component={NcmPage} />
+          <Route path="/cfops" component={CfopPage} />
+          <Route path="/cfop/:codigo" component={CfopManagePage} />
+          <Route path="/cfop" component={CfopManagePage} />
+          <Route path="/ncms" component={NcmPage} />
+          <Route path="/ncm/:codigo" component={NcmManagePage} />
+          <Route path="/ncm" component={NcmManagePage} />
         </Switch>
       </main>
     </>
